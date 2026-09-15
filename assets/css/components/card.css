@@ -124,6 +124,44 @@
 	font-weight: 600;
 }
 
+.evidence-factor-card {
+	background: linear-gradient(160deg, var(--fio-sys-color-accent-extra-dark), var(--fio-sys-color-accent-dark));
+	border: 1px solid var(--fio-sys-color-accent-extra-dark);
+	border-radius: var(--fio-sys-size-radius-md);
+	min-height: 20rem;
+}
+
+.evidence-factor-card .card-body {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: var(--fio-sys-size-padding-lg) var(--fio-sys-size-padding-md);
+	text-align: center;
+}
+
+.evidence-factor-card .material-symbols-rounded {
+	color: var(--fio-sys-color-neutral-white);
+	font-size: 4.5rem;
+	font-weight: 400;
+	margin-bottom: var(--fio-sys-size-margin-lg);
+}
+
+.evidence-factor-card p {
+	color: var(--fio-sys-color-neutral-white);
+	font-family: var(--fio-sys-typography-family-primary-extra-bold);
+	font-size: var(--fio-sys-typography-size-2);
+	line-height: var(--fio-sys-typography-height-125);
+}
+
+.evidence-example-card {
+	min-height: 24rem;
+}
+
+.evidence-example-card .material-symbols-rounded {
+	font-size: 5.5rem;
+}
+
 /*Desktop from 992px and above*/
 /* @media (min-width: 992px) {
 	.card .card-footer {

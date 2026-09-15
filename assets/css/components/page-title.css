@@ -11,7 +11,7 @@
 #page-title {
 	--_background-color: rgba(255, 255, 255, .7);/*var(--fio-sys-color-neutral-white);*/
 	--_background-color2: var(--fio-sys-color-tertiary-light);
-	--_text-color: var(--fio-sys-color-primary-extra-light-contrast);
+	--_text-color: var(--fio-sys-color-heading-lesson);
 	--_label-color: var(--fio-sys-color-primary-extra-dark);
 
 	height: 100svh;

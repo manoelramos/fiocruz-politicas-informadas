@@ -201,11 +201,15 @@ let exerciseCard = document.querySelectorAll('.exercise');
 				feedbackText = el.getAttribute('data-feedback');
 
 				if (el.hasAttribute('correct')) {
-					submitFeedback.innerHTML = `<div><span class="material-symbols-rounded">check_circle</span> <strong>Parabéns, você acertou!</strong><br><span class="feedback__content">` + feedbackText + `</span></div>`;
+					const feedbackHeading = 'Parabéns, você acertou!';
+					feedbackText = removeRepeatedFeedbackHeading(feedbackText, feedbackHeading);
+					submitFeedback.innerHTML = `<div><span class="material-symbols-rounded">check_circle</span> <strong>${feedbackHeading}</strong><br><span class="feedback__content">` + feedbackText + `</span></div>`;
 					submitFeedback.classList.remove('d-none', 'exercise__submit__feedback--incorrect');
 					submitFeedback.classList.add('exercise__submit__feedback--correct');
 				} else {
-					submitFeedback.innerHTML = `<div><span class="material-symbols-rounded">cancel</span> <strong>Você não selecionou a(s) resposta(s) correta(s)!</strong><br><span class="feedback__content">` + feedbackText + `</span></div>`;
+					const feedbackHeading = 'Você não selecionou a resposta correta!';
+					feedbackText = removeRepeatedFeedbackHeading(feedbackText, feedbackHeading);
+					submitFeedback.innerHTML = `<div><span class="material-symbols-rounded">cancel</span> <strong>${feedbackHeading}</strong><br><span class="feedback__content">` + feedbackText + `</span></div>`;
 					submitFeedback.classList.remove('d-none', 'exercise__submit__feedback--correct');
 					submitFeedback.classList.add('exercise__submit__feedback--incorrect');
 				}
@@ -278,6 +282,14 @@ let exerciseCard = document.querySelectorAll('.exercise');
 					submitFeedback.classList.add('exercise__submit__feedback--correct');
 				}
 			}
+		}
+
+		function removeRepeatedFeedbackHeading(feedback, heading) {
+			if (!feedback || !feedback.startsWith(heading)) {
+				return feedback;
+			}
+
+			return feedback.slice(heading.length).replace(/^(<br\s*\/?>|\s)+/gi, '');
 		}
 
 		function blockAnswerOption() {

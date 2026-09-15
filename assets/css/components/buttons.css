@@ -66,12 +66,12 @@ button,
 /* Button primary color */
 .fio-button-primary {
 	--_button-color-primary: var(--fio-sys-color-accent-medium);
-	--_button-color-primary--hover: var(--fio-sys-color-accent-light);
+	--_button-color-primary--hover: var(--fio-sys-color-accent-dark);
 	--_button-outline-color-primary--hover: var(--fio-sys-color-accent-medium);
 	--_button-text-color-primary: var(--_button-color);
 	--_button-text-color-primary--hover: var(--_button-color);
 	--_button-color-primary--active: var(--fio-sys-color-accent-extra-dark);
-	--_button-text-color-primary--active: var(--fio-sys-color-primary-extra-dark-contrast);
+	--_button-text-color-primary--active: var(--fio-sys-color-accent-extra-dark-contrast);
 
 	background-color: var(--_button-color-primary);
 	color: var(--_button-text-color-primary);

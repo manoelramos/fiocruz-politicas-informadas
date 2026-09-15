@@ -199,6 +199,16 @@ blockquote {
     margin-bottom: var(--fio-sys-size-margin-sm);
 }
 
+#page-content .heading__block > h3.heading__title {
+	color: var(--fio-sys-color-heading-topic);
+}
+
+#page-content .heading__block > h4.heading__title,
+#page-content .heading__block > h5.heading__title,
+#page-content .heading__block > h6.heading__title {
+	color: var(--fio-sys-color-heading-section);
+}
+
 
 .heading__block .heading__subtitle {
 	font-family: var(--fio-sys-typography-family-primary-medium);

@@ -41,17 +41,22 @@
 	--fio-sys-color-tertiary-extra-dark: var(--fio-ref-color-tertiary-30);
 	--fio-sys-color-tertiary-extra-dark-contrast: var(--fio-ref-color-tertiary-80);
 
-	/* Accent (cor de interação) */
-	--fio-sys-color-accent-extra-light: var(--fio-sys-color-primary-extra-light);
-	--fio-sys-color-accent-extra-light-contrast: var(--fio-sys-color-primary-extra-light-contrast);
-	--fio-sys-color-accent-light: var(--fio-sys-color-primary-light);
-	--fio-sys-color-accent-light-contrast: var(--fio-sys-color-primary-light-contrast);
-	--fio-sys-color-accent-medium: var(--fio-sys-color-primary-medium);
-	--fio-sys-color-accent-medium-contrast: var(--fio-sys-color-primary-medium-contrast);
-	--fio-sys-color-accent-dark: var(--fio-sys-color-primary-dark);
-	--fio-sys-color-accent-dark-contrast: var(--fio-sys-color-primary-dark-contrast);
-	--fio-sys-color-accent-extra-dark: var(--fio-sys-color-primary-extra-dark);
-	--fio-sys-color-accent-extra-dark-contrast: var(--fio-sys-color-primary-extra-dark-contrast);
+	/* Accent (azul de interação) */
+	--fio-sys-color-accent-extra-light: #eef4fd;
+	--fio-sys-color-accent-extra-light-contrast: #234f82;
+	--fio-sys-color-accent-light: #d9e8fb;
+	--fio-sys-color-accent-light-contrast: #1b4778;
+	--fio-sys-color-accent-medium: #3f7dec;
+	--fio-sys-color-accent-medium-contrast: #ffffff;
+	--fio-sys-color-accent-dark: #2a64a3;
+	--fio-sys-color-accent-dark-contrast: #ffffff;
+	--fio-sys-color-accent-extra-dark: #1f4c7d;
+	--fio-sys-color-accent-extra-dark-contrast: #ffffff;
+
+	/* Content heading hierarchy */
+	--fio-sys-color-heading-lesson: #8c75f9;
+	--fio-sys-color-heading-topic: #39d0c5;
+	--fio-sys-color-heading-section: #287fea;
 
 	/* Neutral */
 	--fio-sys-color-neutral-extra-light: var(--fio-ref-color-neutral-99);

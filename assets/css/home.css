@@ -397,16 +397,16 @@ section {
 
 /* Modal de aulas dos módulos */
 .modal-aulas .modal-content {
-	border: var(--fio-sys-size-stroke-md) solid var(--fio-sys-color-primary-dark);
+	border: var(--fio-sys-size-stroke-md) solid var(--fio-sys-color-accent-medium);
 	border-radius: var(--fio-sys-size-radius-lg);
 	overflow: hidden;
 }
 .modal-aulas .modal-header {
 	border-bottom: none !important;
-	background-color: var(--fio-sys-color-primary-extra-light);
+	background-color: var(--fio-sys-color-accent-extra-light);
 }
 .modal-aulas .modal-title {
-	color: var(--fio-sys-color-primary-dark);
+	color: var(--fio-sys-color-accent-medium);
 	font-family: var(--fio-sys-typography-family-primary-bold);
 }
 .modal-aulas .modal-header .btn-close {
@@ -422,7 +422,7 @@ section {
 	content: "close";
 	font-family: "Material Symbols Rounded";
 	font-size: 1.5rem;
-	color: var(--fio-sys-color-primary-dark);
+	color: var(--fio-sys-color-accent-dark);
 	line-height: 1;
 	position: absolute;
 	inset: 0;
@@ -431,7 +431,7 @@ section {
 	justify-content: center;
 }
 .modal-aulas .modal-aulas-subtitle {
-	color: var(--fio-sys-color-primary-light);
+	color: var(--fio-sys-color-accent-medium);
 	font-family: var(--fio-sys-typography-family-primary-bold);
 	font-size: var(--fio-sys-typography-size-1);
 	margin-bottom: var(--fio-sys-size-padding-md);
@@ -440,20 +440,20 @@ section {
 	margin-bottom: 0;
 }
 .modal-aulas .list .list-group.list-group-numbered > .list-group-item {
-	border-bottom-color: var(--fio-sys-color-primary-extra-light);
+	border-bottom-color: var(--fio-sys-color-accent-light);
 	border-bottom-width: 1px;
 	padding-top: var(--fio-sys-size-padding-md);
 	padding-bottom: var(--fio-sys-size-padding-md);
 	padding-left: 2.25rem;
 }
 .modal-aulas .list .list-group.list-group-numbered > .list-group-item::before {
-	color: var(--fio-sys-color-primary-light);
+	color: var(--fio-sys-color-accent-medium);
 	font-family: var(--fio-sys-typography-family-primary-bold);
 	text-shadow: none;
 }
 .modal-aulas .list .list-group.list-group-numbered > .list-group-item a {
 	display: inline-block;
-	background-color: var(--fio-sys-color-primary-extra-dark);
+	background-color: var(--fio-sys-color-accent-dark);
 	color: #fff;
 	text-decoration: none;
 	padding: 0.2rem 0.55rem;
@@ -463,7 +463,7 @@ section {
 }
 .modal-aulas .list .list-group.list-group-numbered > .list-group-item a:hover,
 .modal-aulas .list .list-group.list-group-numbered > .list-group-item a:focus {
-	background-color: var(--fio-sys-color-primary-dark);
+	background-color: var(--fio-sys-color-accent-extra-dark);
 	color: #fff;
 	text-decoration: none;
 }

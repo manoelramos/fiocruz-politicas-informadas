@@ -84,6 +84,52 @@
 	overflow: hidden;
 }
 
+.aba.aba-evidencias .nav {
+	background-color: var(--fio-sys-color-accent-dark);
+	border: var(--fio-sys-size-stroke-sm) solid var(--fio-sys-color-accent-extra-dark);
+	border-bottom: 0;
+	border-radius: 0;
+}
+
+.aba.aba-evidencias .nav.nav-fill .nav-item .nav-link {
+	align-items: center;
+	background-color: var(--fio-sys-color-accent-dark);
+	border-radius: 0;
+	color: var(--fio-sys-color-neutral-white);
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+}
+
+.aba.aba-evidencias .nav.nav-fill .nav-item .nav-link::after {
+	border-left: 0.4rem solid transparent;
+	border-right: 0.4rem solid transparent;
+	border-top: 0.45rem solid currentColor;
+	content: "";
+	margin-left: var(--fio-sys-size-margin-xs);
+}
+
+.aba.aba-evidencias .nav.nav-pills .nav-link.active {
+	background-color: var(--fio-sys-color-neutral-white);
+	border-bottom: 0;
+	color: var(--fio-sys-color-accent-extra-dark);
+}
+
+.aba.aba-evidencias .nav.nav-pills .nav-link.active::after {
+	border-bottom: 0.45rem solid currentColor;
+	border-top: 0;
+}
+
+.aba.aba-evidencias .nav.nav-fill .nav-item .nav-link:not(.active):hover {
+	background-color: var(--fio-sys-color-accent-extra-dark);
+}
+
+.aba.aba-evidencias .tab-content {
+	background-color: var(--fio-sys-color-neutral-white);
+	border: var(--fio-sys-size-stroke-sm) solid var(--fio-sys-color-accent-extra-dark);
+	border-radius: 0;
+}
+
 @media (min-width: 768px) {
 	.aba .nav.nav-fill .nav-item {
 		width: auto;

@@ -203,6 +203,21 @@
     width: var(--_box-icone-width);
 }
 
+.practice-highlight {
+	background-color: var(--fio-sys-color-accent-extra-dark);
+	background-image: url('../../../media/templates/bg-box-atencao.svg');
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: var(--fio-sys-size-radius-md);
+	padding: var(--fio-sys-size-padding-xl);
+}
+
+.practice-highlight p,
+.practice-highlight strong {
+	color: var(--fio-sys-color-neutral-white);
+}
+
 /* Saiba mais */
 .box[data-box='Saiba Mais'] .card .card-header .icone::before {
 	content: 'info';
