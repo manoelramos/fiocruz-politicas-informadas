@@ -203,3 +203,41 @@ Tabela em mobile (colunas viram linhas, em blocos de informação)
 		content: attr(data-title);
 	}
 }
+
+/* --- TABELA LENTES ETICAS --- */
+.table-lentes-eticas {
+	background-color: #fff;
+	border-color: var(--fio-sys-color-neutral-dark, #333);
+}
+
+.table-lentes-eticas > :not(caption) > * > * {
+	border-color: var(--fio-sys-color-neutral-dark, #333);
+	vertical-align: top;
+}
+
+.table-lentes-eticas .table-section-header th {
+	background-color: var(--fio-sys-color-primary-medium);
+	color: #fff;
+	text-align: center;
+	font-family: var(--fio-sys-typography-family-primary-semibold);
+	font-weight: 600;
+	padding: 0.65rem 0.75rem;
+	border-color: var(--fio-sys-color-primary-medium);
+}
+
+.table-lentes-eticas .table-col-headers th {
+	background-color: var(--fio-sys-color-neutral-light, #e9ecef);
+	color: var(--fio-sys-color-neutral-extra-dark, #212529);
+	font-family: var(--fio-sys-typography-family-primary-semibold);
+	font-weight: 600;
+	text-align: left;
+}
+
+.table-lentes-eticas td,
+.table-lentes-eticas th {
+	padding: 0.65rem 0.75rem;
+}
+
+.table-lentes-eticas ul {
+	margin-top: 0.35rem;
+}

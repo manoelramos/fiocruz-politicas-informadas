@@ -124,10 +124,19 @@
 	font-weight: 600;
 }
 
+/* Fundo padrão para cards com background */
+.card.fundo1,
 .evidence-factor-card {
-	background: linear-gradient(160deg, var(--fio-sys-color-accent-extra-dark), var(--fio-sys-color-accent-dark));
+	background-color: var(--fio-sys-color-accent-extra-dark);
+	background-image: url(../../../media/templates/fundo-flipcard.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	border: 1px solid var(--fio-sys-color-accent-extra-dark);
 	border-radius: var(--fio-sys-size-radius-md);
+}
+
+.evidence-factor-card {
 	min-height: 20rem;
 }
 
@@ -135,16 +144,30 @@
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	padding: var(--fio-sys-size-padding-lg) var(--fio-sys-size-padding-md);
 	text-align: center;
 }
 
+.evidence-factor-card .evidence-factor-icon,
 .evidence-factor-card .material-symbols-rounded {
+	align-items: center;
 	color: var(--fio-sys-color-neutral-white);
+	display: flex;
+	flex-shrink: 0;
 	font-size: 4.5rem;
 	font-weight: 400;
+	height: 4.5rem;
+	justify-content: center;
 	margin-bottom: var(--fio-sys-size-margin-lg);
+	width: 4.5rem;
+}
+
+.evidence-factor-card .evidence-factor-icon img {
+	display: block;
+	height: 4.5rem;
+	object-fit: contain;
+	width: 4.5rem;
 }
 
 .evidence-factor-card p {
@@ -152,14 +175,37 @@
 	font-family: var(--fio-sys-typography-family-primary-extra-bold);
 	font-size: var(--fio-sys-typography-size-2);
 	line-height: var(--fio-sys-typography-height-125);
+	margin-bottom: 0;
+}
+
+.evidence-factor-card.evidence-example-card p {
+	font-size: var(--fio-sys-typography-size-0);
+	line-height: var(--fio-sys-typography-height-150);
 }
 
 .evidence-example-card {
-	min-height: 24rem;
+	min-height: 28rem;
 }
 
-.evidence-example-card .material-symbols-rounded {
-	font-size: 5.5rem;
+.evidence-factor-card.evidence-example-card .card-body {
+	padding-top: calc(var(--fio-sys-size-padding-lg) + 4rem);
+}
+
+.evidence-factor-card.evidence-example-card .evidence-factor-icon,
+.evidence-factor-card.evidence-example-card .material-symbols-rounded {
+	font-size: 8.5rem;
+	height: 8.5rem;
+	margin-bottom: var(--fio-sys-size-margin-md);
+	width: auto;
+	max-width: 100%;
+}
+
+.evidence-factor-card.evidence-example-card .evidence-factor-icon img {
+	display: block;
+	height: 8.5rem;
+	max-width: 100%;
+	object-fit: contain;
+	width: auto;
 }
 
 /*Desktop from 992px and above*/

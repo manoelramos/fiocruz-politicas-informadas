@@ -54,6 +54,29 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
 	});
 })();
 
+// Mapa de vinculação / figura de atores: um popover por vez
+(function () {
+	var containers = document.querySelectorAll('.map-vinculacao, .figura-atores');
+	if (!containers.length) return;
+
+	containers.forEach(function (container) {
+		var triggers = container.querySelectorAll('[data-bs-toggle="popover"]');
+
+		triggers.forEach(function (triggerEl) {
+			triggerEl.addEventListener('show.bs.popover', function () {
+				document.querySelectorAll('.map-vinculacao [data-bs-toggle="popover"], .figura-atores [data-bs-toggle="popover"]').forEach(function (otherEl) {
+					if (otherEl !== triggerEl) {
+						var instance = bootstrap.Popover.getInstance(otherEl);
+						if (instance) {
+							instance.hide();
+						}
+					}
+				});
+			});
+		});
+	});
+})();
+
 // //Swiper (inicialização)
 
 // //Type 1: Swiper Navigation
@@ -281,16 +304,10 @@ const modalInfos = {
 						<p class="mb-1">Julia Novaes de Barros Peixoto</p>
 						<p class="small text-muted mb-0"><em>Instituto de Comunicação e Informação Científica e Tecnológica em Saúde - Icict/Fiocruz</em></p>
 						<p class="small text-muted mb-3"><em>[Aulas 1, 2 e 3]</em></p>
-						<p class="creditos-modulo mb-2 mt-4">Módulo 3: Análise Espacial</p>
-						<p class="mb-1">Mônica de Avelar Figueiredo Mafra Magalhães</p>
-						<p class="small text-muted mb-0"><em>Instituto de Comunicação e Informação Científica e Tecnológica em Saúde - Icict/Fiocruz</em></p>
-						<p class="small text-muted mb-3"><em>[Aulas 1, 2, 3, 4, 5, 6 e 7]</em></p>
-						<p class="mb-1">Julia Novaes de Barros Peixoto</p>
-						<p class="small text-muted mb-0"><em>Instituto de Comunicação e Informação Científica e Tecnológica em Saúde - Icict/Fiocruz</em></p>
-						<p class="small text-muted mb-3"><em>[Aulas 1, 2, 3, 4, 5, 6 e 7]</em></p>
-						<p class="mb-1">Diego Ricardo Xavier</p>
-						<p class="small text-muted mb-0"><em>Instituto de Comunicação e Informação Científica e Tecnológica em Saúde - Icict/Fiocruz</em></p>
-						<p class="small text-muted mb-3"><em>[Aulas 6 e 7]</em></p>
+						<p class="creditos-modulo mb-2 mt-4">Módulo 3: Democratização do conhecimento</p>
+						<p class="mb-1">Mariana Gabriel</p>
+						<p class="small text-muted mb-0"><em>Núcleo de Evidências associado ao Núcleo de Informações, Políticas Públicas e Inclusão Social - NEv NIPPIS</em></p>
+						<p class="small text-muted mb-3"><em>[Aula 1]</em></p>
 					</div>
 				</div>
 			</div>

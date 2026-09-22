@@ -292,7 +292,8 @@ audio {
     text-transform: uppercase;
 }
 
-.saiba-mais button.saiba-mais.fio-button:hover {
+.saiba-mais button.saiba-mais.fio-button:hover,
+.saiba-mais button.saiba-mais.fio-button:not(.collapsed) {
 	background-color: var(--fio-sys-color-accent-dark);
     color: var(--fio-sys-color-accent-dark-contrast);
 }
@@ -310,6 +311,10 @@ audio {
     border-radius: var(--fio-sys-size-radius-full); */
     padding: var(--fio-sys-size-padding-sm);
 	width: var( --_box-icone-width);
+}
+
+.saiba-mais button.saiba-mais.fio-button.importante .icone::before {
+	content: 'warning';
 }
 
 /* Legenda de Vídeo */

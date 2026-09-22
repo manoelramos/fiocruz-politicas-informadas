@@ -151,3 +151,47 @@
 .list .list-group.list-group-numbered > .list-group-item::before {
 	font-family: var(--fio-sys-typography-family-secondary-regular);
 }
+
+/* Lista simples aninhada (estilo Word) */
+.list-word {
+	color: var(--fio-sys-color-neutral-extra-dark);
+	font-size: var(--fio-sys-typography-size-0);
+	margin-bottom: 0;
+}
+
+.list-word > ol {
+	list-style-type: decimal;
+	margin: 0;
+	padding-left: 1.5rem;
+}
+
+.list-word ol ol,
+.list-word ol.list-word__nested {
+	list-style-type: upper-roman;
+	margin: 0.75rem 0 0;
+	padding-left: 1.5rem;
+}
+
+.list-word ul,
+.list-word ul.list-word__nested {
+	list-style-type: disc;
+	margin: 0.75rem 0 0;
+	padding-left: 1.5rem;
+}
+
+.list-word.list-word--nested {
+	padding-left: 1.5rem;
+}
+
+.list-word li {
+	margin-bottom: 0.85rem;
+	padding-left: 0.35rem;
+}
+
+.list-word li:last-child {
+	margin-bottom: 0;
+}
+
+.list-word p {
+	margin-bottom: 0;
+}

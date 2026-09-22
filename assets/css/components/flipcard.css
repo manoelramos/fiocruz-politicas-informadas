@@ -163,7 +163,8 @@
 	fill: var(--white) !important;
 }
 
-/*Fundos para flipcard*/
+/* Fundo padrão para flipcards com background */
+.flipcard .flip-card-front,
 .flipcard .flip-card .fundo1 {
 	background-image: url(../../../media/templates/fundo-flipcard.jpg);
 	background-size: cover;
@@ -171,11 +172,6 @@
 	border-color: var(--_flipcard-border-color);
 	background-repeat: no-repeat;
 	background-position: top center;
-	/* border-image-source: url('../../../media/templates/border-image.svg');
-	border-image-slice: 10;
-    border-image-width: 32px;
-    border-image-outset: 2 3;
-	border-image-repeat: round; */
 }
 
 /*Configuração do verso*/

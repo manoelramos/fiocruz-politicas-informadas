@@ -1,0 +1,41 @@
+.map-vinculacao {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.map-vinculacao img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.map-vinculacao__hotspot {
+	position: absolute;
+	z-index: 2;
+	padding: 0;
+	border: 0;
+	border-radius: 0.35rem;
+	background: transparent;
+	cursor: pointer;
+}
+
+.map-vinculacao__hotspot:focus-visible {
+	outline: 2px solid var(--fio-sys-color-neutral-white);
+	outline-offset: 2px;
+}
+
+.map-vinculacao__hotspot--chile:hover,
+.map-vinculacao__hotspot--chile:focus-visible {
+	background: rgba(255, 140, 0, 0.22);
+}
+
+.map-vinculacao__hotspot--brasil:hover,
+.map-vinculacao__hotspot--brasil:focus-visible {
+	background: rgba(60, 180, 60, 0.22);
+}
+
+.map-vinculacao__hotspot--africa:hover,
+.map-vinculacao__hotspot--africa:focus-visible {
+	background: rgba(240, 200, 40, 0.22);
+}
