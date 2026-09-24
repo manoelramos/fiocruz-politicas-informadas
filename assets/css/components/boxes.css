@@ -153,6 +153,10 @@
 }
 
 /* Dica */
+.box[data-box='Importante'] .card .card-header .icone::before {
+	content: 'crisis_alert';
+}
+
 .box[data-box='Dica'] .card .card-header .icone::before {
 	/* content: 'tips_and_updates'; */
 	/* content: 'star'; */
@@ -192,6 +196,11 @@
 
 /* Para ler */
 .box[data-box='Para Ler'] .card .card-header .icone::before {
+	content: 'auto_stories';
+}
+
+/* Sugestão de Leitura */
+.box[data-box='Sugestão de Leitura'] .card .card-header .icone::before {
 	content: 'auto_stories';
 }
 

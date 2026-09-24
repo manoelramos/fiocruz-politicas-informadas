@@ -1,150 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes" />
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="robots" content="noindex" />
-	<meta name="author" content="Fiocruz, Campus Virtual" />
-	<meta name="description" content="Curso Fontes de Dados e Sistemas de Informação para o SUS" />
-	<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
-	<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
-	<link rel="manifest" href="../media/icons/manifest.json" />
-	<meta name="theme-color" content="#001833" />
-	<title>Curso Fontes de Dados e Sistemas de Informação para o SUS | Mod 4 | Aula 1</title>
-	<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="../../assets/css/style.css" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="robots" content="noindex" />
+<meta name="author" content="Fiocruz, Campus Virtual" />
+<meta name="description" content="Curso Políticas Informadas por Evidências" />
+<meta name="keywords" content="Fiocruz Curso Políticas Informadas por Evidências" />
+<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
+<link rel="manifest" href="../../media/icons/manifest.json" />
+<meta name="theme-color" content="#001833" />
+<title>Políticas Informadas por Evidências | Mod 4 | Aula 1 | Tópico 3</title>
+<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../../assets/css/style.css" />
 </head>
 <body>
-	<header class="header">
-		<div class="mobile-toggle-open"><a class="mobile-toggle__button" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a></div>
-		<div class="brand"><img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" /></div>
-		<div class="title"><h1>Fontes de Dados e Sistemas de Informação para o SUS</h1></div>
-		<ul class="nav nav-pills">
-			<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
-			<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
-		</ul>
-	</header>
-	<div class="main">
-		<div class="sidebar" role="navigation">
-			<div class="sidebar__inner" style="position: relative">
-				<div class="sidebar__group d-lg-none">
-					<div class="sidebar__group-item">
-						<div class="sidebar__header">
-							<span>Curso</span>
-							<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-						</div>
-					</div>
-					<div class="sidebar__group-item"><div class="sidebar__title"><h1>Fontes de Dados e Sistemas de Informação para o SUS</h1></div></div>
-					<div class="sidebar__group-item">
-						<ul class="nav">
-							<li class="nav-item"><a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a></li>
-							<li class="nav-item"><a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true">format_list_bulleted</span>Créditos</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="sidebar__group">
-					<div class="sidebar__group-item">
-						<div class="dropend">
-							<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-								<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span><span class="label">Módulos</span>
-							</button>
-							<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
-								<li class="d-lg-none dropdown-menu__header">
-									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-									<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-								</li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/aula1/topico1.html"><strong>Módulo 1</strong><br />Introdução à Informação em Saúde no SUS</a></li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula1/topico1.html"><strong>Módulo 2</strong><br />Fontes de Dados Socioeconômicos e Demográficos: subsídios para a Saúde</a></li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula1/topico1.html"><strong>Módulo 3</strong><br />Sistemas de Informação em Saúde</a></li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo4/aula1/topico1.html"><strong>Módulo 4</strong><br />Interoperabilidade de Sistemas</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="divider"><hr /></div>
-				<div class="sidebar__group">
-					<div class="sidebar__group-item"><span class="text module">Módulo <br class="d-none d-lg-block" /><span>4</span></span></div>
-					<div class="sidebar__group-item">
-						<div class="dropend">
-							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-								<span class="icon material-symbols-rounded" aria-hidden="true">apps</span><span class="label">Conteúdo</span>
-							</button>
-							<ul class="dropdown-menu">
-								<li class="d-lg-none dropdown-menu__header">
-									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-									<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-								</li>
-								<li class="dropdown-menu__title"><span class="label">Módulo 4</span><span class="title">Interoperabilidade de Sistemas</span></li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula1/topico1.html"><strong>Aula 1: </strong>Interoperabilidade na Saúde</a></li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula2/topico1.html"><strong>Aula 2: </strong>Integração de Dados em Saúde</a></li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../atividade.html"><strong>Atividade</strong></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="divider"><hr /></div>
-				<div class="sidebar__group">
-					<div class="sidebar__group-item"><span class="text class">Aula 1</span></div>
-					<div class="sidebar__group-item">
-						<div class="dropend">
-							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-								<span class="icon material-symbols-rounded" aria-hidden="true">format_list_bulleted</span><span class="label">Tópicos</span>
-							</button>
-							<ul class="dropdown-menu">
-								<li class="d-lg-none dropdown-menu__header">
-									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-									<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-								</li>
-								<li class="dropdown-menu__title"><span class="label">Aula 1</span><span class="title">Interoperabilidade na Saúde</span></li>
-								<li class="dropdown-menu__item"><nav class="topic-list">
-							<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"><span class="material-symbols-rounded"></span>Sobre esta aula</a>
-							<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"><span class="material-symbols-rounded"></span>O que é interoperabilidade?</a>
-							<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Importância e vantagens</a>
-							<a href="topico4.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Dimensões da interoperabilidade</a>
-							<a href="topico5.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Importância na Saúde Pública</a>
-							<a href="topico6.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Pareamento de dados</a>
-							<a href="topico7.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Tipos de pareamento e métodos</a>
-							<a href="topico8.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Aplicações e importância na saúde pública</a>
-							<a href="topico9.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Referências</a>
-							</nav></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="content">
-			<div id="page-title"><div class="container"><div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5"><div class="col-12 col-md-10 col-lg-11"><h2 class="title"><span class="label">Módulo 4 | Aula 1</span><br />Interoperabilidade na Saúde</h2></div></div></div></div>
-			<div id="page-content" class="">
-				<section><div class="container">
-<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="heading__block"><span class="small">Tópico 3</span><h3 class="heading__title">Importância e vantagens</h3></div></div></div>
-<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Compreender a importância da interoperabilidade é essencial para perceber como ela transforma a relação entre governo e cidadão. Quando diferentes sistemas conseguem se comunicar e compartilhar dados de forma estruturada e segura, os serviços públicos tornam-se mais ágeis, menos burocráticos e muito mais eficientes. Isso significa que você, como cidadão, não precisa fornecer repetidamente as mesmas informações a diferentes órgãos, um ganho que parece simples, mas que representa economia de tempo, redução de custos e maior confiabilidade nos processos (Brasil, [s. d.]a).</p></div></div>
-<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>A interoperabilidade é um dos pilares do governo digital brasileiro. Ela permite que órgãos públicos integrem suas bases de dados e utilizem padrões comuns para troca de informações, seja em nível institucional, regional, nacional ou até transnacional. Essa integração não apenas facilita a prestação de serviços, mas também fortalece a tomada de decisão dos gestores, que passam a contar com dados mais completos e consistentes para planejar políticas públicas (Balian et al., 2025).</p></div></div>
-<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Além disso, é possível observar os benefícios de forma concreta a partir dos dados do programa Conecta gov.br. A interoperabilidade já gerou economia superior a R$ 12 bilhões e viabilizou bilhões de transações automáticas entre órgãos federais, eliminando redundâncias e acelerando processos (Brasil, [s. d.]b). Essa prática também contribui para a confiabilidade dos cadastros, pois permite cruzamento de informações com base no Comprovante de Situação Cadastral (CPF), conforme previsto no Art. 39 da Lei nº 14.129/2021. Essa lei estabelece objetivos claros para a interoperabilidade, como aprimorar a gestão de políticas públicas, aumentar a segurança das informações e viabilizar meios unificados de identificação do cidadão (Brasil, 2021).</p></div></div>
-<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Outro ponto relevante é a governança de dados, regulamentada pelo Decreto nº 10.046/2019, que instituiu o Cadastro Base do Cidadão e o Comitê Central de Governança de Dados. Essa estrutura garante que a interoperabilidade ocorra com qualidade, respeitando a Lei Geral de Proteção de Dados (LGPD) e assegurando a privacidade dos cidadãos (Brasil, 2019).</p></div></div>
-<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="box" data-box="Importante"><div class="card"><div class="card-header"><span class="icone material-symbols-rounded" aria-hidden="true"></span><span class="label">Importante!</span></div><div class="card-body"><p class="mb-0">A interoperabilidade não é um fim em si mesma. É um meio para se alcançar objetivos maiores, como continuidade do cuidado, vigilância em saúde eficaz, redução de custos e melhoria dos resultados para os pacientes e para a população.</p></div></div></div></div></div>
-				</div></section>
-			</div>
-			<section><div class="container"><div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8"><div class="page-nav d-flex justify-content-evenly flex-wrap gap-3"><a class="fio-button fio-button-primary" href="topico2.html" rel="prev"><span class="material-symbols-rounded" aria-hidden="true">west</span> Tópico anterior</a><a class="fio-button fio-button-primary" href="topico4.html" rel="next">Próximo tópico <span class="material-symbols-rounded" aria-hidden="true">east</span></a></div></div></div></div></section>
-			<footer>
-				<div class="container-fluid">
-					<div class="row justify-content-center align-items-center linha-de-marcas">
-						<div class="col-12 text-center py-3">
-							<img class="img-fluid regua-logos" src="../../media/logos/regua-de-logos.png" alt="Régua de logos: ICICT, Campus Virtual Fiocruz e Fiocruz" />
-						</div>
-					</div>
-				</div>
-			</footer>
-	</div>
-	<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
-	<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
-	<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
-	<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
-	<script type="text/javascript">var sidebar = new StickySidebar(".sidebar", { topSpacing: 0, bottomSpacing: 0, containerSelector: ".main", innerWrapperSelector: ".sidebar__inner", minWidth: 991 });</script>
-	<script type="text/javascript" src="../../assets/js/scripts.js"></script>
-	<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
-	<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
-	<script>AOS.init();</script>
-</body>
-</html>
+<header class="header"><div class="mobile-toggle-open"><a class="mobile-toggle__button" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a></div><div class="brand"><img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" /></div><div class="title"><h1>Políticas Informadas por Evidências</h1></div><ul class="nav nav-pills"><li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li><li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li></ul></header>
+<div class="main"><div class="sidebar" role="navigation"><div class="sidebar__inner" style="position: relative">
+<div class="sidebar__group d-lg-none"><div class="sidebar__group-item"><div class="sidebar__header"><span>Curso</span><a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a></div></div><div class="sidebar__group-item"><div class="sidebar__title"><h1>Políticas Informadas por Evidências</h1></div></div><div class="sidebar__group-item"><ul class="nav"><li class="nav-item"><a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a></li><li class="nav-item"><a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true">format_list_bulleted</span>Créditos</a></li></ul></div></div>
+<div class="sidebar__group"><div class="sidebar__group-item"><div class="dropend"><button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30"><span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span><span class="label">Módulos</span></button><ul class="dropdown-menu" aria-labelledby="dropdown-modulos"><li class="d-lg-none dropdown-menu__header"><a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a><a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="../../modulo1/aula1/topico1.html"><strong>Módulo 1</strong><br />Introdução à Política Informada por Evidências</a></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="../../modulo2/aula1/topico1.html"><strong>Módulo 2</strong><br />Documentos para Políticas Informadas por Evidências</a></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="../../modulo3/aula1/topico1.html"><strong>Módulo 3</strong><br />Democratização do conhecimento</a></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="topico1.html"><strong>Módulo 4</strong><br />Produtos Comunicacionais para Tradução do Conhecimento</a></li></ul></div></div></div>
+<div class="divider"><hr /></div><div class="sidebar__group"><div class="sidebar__group-item"><span class="text module">Módulo <br class="d-none d-lg-block" /><span>4</span></span></div><div class="sidebar__group-item"><div class="dropend"><button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30"><span class="icon material-symbols-rounded" aria-hidden="true">apps</span><span class="label">Conteúdo</span></button><ul class="dropdown-menu"><li class="d-lg-none dropdown-menu__header"><a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a><a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a></li><li class="dropdown-menu__title"><span class="label">Módulo 4</span><span class="title">Produtos Comunicacionais para Tradução do Conhecimento</span></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="topico1.html"><strong>Aula 1: </strong>Papel e importância da Comunicação em PIE</a></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="../aula2/topico1.html"><strong>Aula 2: </strong>Formatos de Produtos para Comunicação de Conhecimento</a></li><li class="dropdown-menu__item"><span class="dropdown-menu__item-link" aria-disabled="true"><strong>Aula 3: </strong>Comunicação de Evidências na Prática e a Experiência do NIPPIS</span></li></ul></div></div></div>
+<div class="divider"><hr /></div><div class="sidebar__group"><div class="sidebar__group-item"><span class="text class">Aula 1</span></div><div class="sidebar__group-item"><div class="dropend"><button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30"><span class="icon material-symbols-rounded" aria-hidden="true">format_list_bulleted</span><span class="label">Tópicos</span></button><ul class="dropdown-menu"><li class="d-lg-none dropdown-menu__header"><a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a><a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a></li><li class="dropdown-menu__title"><span class="label">Aula 1</span><span class="title">Papel e Importância da Comunicação em PIE</span></li><li class="dropdown-menu__item"><nav class="topic-list"><a href="topico1.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Sobre esta aula</a><a href="topico2.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Autoria</a><a href="topico3.html" class="dropdown-menu__item-link active" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Introdução</a><a href="topico4.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>A comunicação como ponte entre ciência e sociedade</a><a href="topico5.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Produção Científica e circulação do conhecimento</a><a href="topico6.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>O desafio da comunicação no campo das políticas públicas</a><a href="topico7.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Tradução do Conhecimento e comunicação</a><a href="topico8.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Diferentes formas de pensar a circulação do Conhecimento Científico</a><a href="topico9.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>O papel da Comunicação na Tradução do Conhecimento</a><a href="topico10.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Atividade</a><a href="topico11.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Resumo da aula</a><a href="topico12.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Referências Bibliográficas</a></nav></li></ul></div></div></div>
+</div></div>
+<div class="content"><div id="page-title"><div class="container"><div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5"><div class="col-12 col-md-10 col-lg-11"><h2 class="title"><span class="label">Módulo 4 | Aula 1</span><br />Papel e Importância da Comunicação em PIE</h2></div></div></div></div>
+<div id="page-content"><section><div class="container">
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-4"><div class="heading__block"><span class="small">Tópico 3</span><h3 class="heading__title">Introdução</h3></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Nesta aula você conhecerá o papel estratégico da comunicação no campo das Políticas Informadas por Evidências (PIE) para aproximar evidências científicas da tomada de decisão em saúde e em políticas públicas.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Ao longo do conteúdo serão discutidos:</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="list"><ul class="list-group"><li class="list-group-item">Os desafios da comunicação científica.</li><li class="list-group-item">As barreiras de acesso.</li><li class="list-group-item">A importância do desenvolvimento de produtos comunicacionais acessíveis, claros e adequados aos diferentes públicos para a compreensão das evidências.</li></ul></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Também serão apresentados exemplos de estratégias e formatos utilizados para tornar o conhecimento científico mais compreensível, útil e aplicável em contextos reais de gestão, participação social e formulação de políticas públicas.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p class="mb-0 text-center"><strong>Antes de avançarmos, reflita sobre a seguinte questão...</strong></p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Você já se perguntou por que muitas evidências científicas importantes nem sempre chegam às pessoas que tomam decisões? Ou por que determinados conhecimentos produzidos na academia têm pouca influência sobre políticas públicas e práticas sociais?</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Embora a produção científica tenha crescido significativamente nas últimas décadas, isso não significa, necessariamente, que o conhecimento seja comunicado de forma acessível, clara e útil para diferentes públicos. Em muitos casos, resultados de pesquisas permanecem restritos a artigos científicos, escritos em linguagem técnica e circulando apenas em espaços acadêmicos.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="card border-0 rounded overflow-hidden" style="background-color:var(--fio-sys-color-accent-dark);background-image:url(../../media/templates/fundo-flipcard.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;"><div class="card-body p-4 p-md-5"><p class="mb-0 text-white"><strong class="text-white">No contexto das PIE, esse desafio se torna ainda mais relevante. Gestores, profissionais, comunicadores, movimentos sociais e cidadãos precisam acessar informações confiáveis para apoiar decisões em saúde e em políticas públicas. No entanto, para que isso aconteça, não basta produzir evidências: é fundamental comunicar essas evidências de maneira estratégica e adequada aos diferentes contextos e públicos.</strong></p></div></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Como já foi abordado nas aulas anteriores, <strong>Tradução do Conhecimento</strong> surge justamente como um conjunto de processos e estratégias que busca reduzir a distância entre produção científica e uso social do conhecimento.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="saiba-mais pb-5"><div class="row"><div class="col-12 d-flex justify-content-center"><button class="saiba-mais importante fio-button button-md fio-button-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#importante-simplificar-t3" aria-expanded="false" aria-controls="importante-simplificar-t3"><span class="icone material-symbols-rounded" aria-hidden="true"></span> IMPORTANTE!</button></div><div class="col-12"><div class="mt-3 collapse" id="importante-simplificar-t3"><p class="mb-0">Tradução do Conhecimento não significa “simplificar demais” a ciência ou retirar sua complexidade. Trata-se de tornar o conhecimento mais compreensível, acessível e útil para diferentes públicos e contextos de decisão.</p></div></div></div></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="row g-4"><div class="col-12 col-md-6"><img class="img-fluid w-100 rounded" src="../../media/modulo4/aula1/card-adaptar-linguagem-full.jpeg" alt="Adaptar a linguagem." /></div><div class="col-12 col-md-6"><img class="img-fluid w-100 rounded" src="../../media/modulo4/aula1/card-selecionar-formatos-full.jpeg" alt="Selecionar formatos mais acessíveis." /></div><div class="col-12 col-md-6"><img class="img-fluid w-100 rounded" src="../../media/modulo4/aula1/card-aspectos-culturais-full.jpeg" alt="Considerar aspectos culturais e contextuais." /></div><div class="col-12 col-md-6"><img class="img-fluid w-100 rounded" src="../../media/modulo4/aula1/card-produtos-comunicacionais-full.jpeg" alt="Desenvolver produtos comunicacionais capazes de facilitar a compreensão e a utilização das evidências." /></div></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Comunicar evidências envolve reconhecer que diferentes públicos têm necessidades, repertórios e formas distintas de acessar informações. Assim, pensar a comunicação do conhecimento também significa considerar inclusão, acessibilidade e equidade no acesso à informação. Produtos comunicacionais precisam dialogar com diferentes realidades sociais, culturais e linguísticas, contribuindo para ampliar a circulação e o uso democrático das evidências científicas.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="box" data-box="Para Refletir"><div class="card"><div class="card-header"><span class="icone material-symbols-rounded" aria-hidden="true"></span><span class="label">Para Refletir</span></div><div class="card-body"><p class="mb-0">Você consegue identificar situações em que uma informação científica deixou de ser utilizada porque não foi comunicada de forma clara ou acessível? Quais impactos isso gerou na sociedade e nas políticas públicas?</p></div></div></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Ao longo desta aula você conhecerá os fundamentos da comunicação do conhecimento no campo das PIE e compreenderá por que produtos comunicacionais acessíveis são ferramentas estratégicas para fortalecer a relação entre ciência, gestão e sociedade.</p></div></div>
+</div></section></div>
+<section><div class="container"><div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8"><div class="page-nav d-flex justify-content-evenly flex-wrap gap-3"><a class="fio-button fio-button-primary" href="topico2.html" rel="prev"><span class="material-symbols-rounded" aria-hidden="true">west</span> Tópico anterior</a><a class="fio-button fio-button-primary" href="topico4.html" rel="next">Próximo tópico <span class="material-symbols-rounded" aria-hidden="true">east</span></a></div></div></div></div></section>
+<footer><div class="container-fluid"><div class="row justify-content-center align-items-center linha-de-marcas"><div class="col-12 text-center py-3"><img class="img-fluid regua-logos" src="../../media/logos/regua-de-logos.png" alt="Régua de logos: ICICT, Campus Virtual Fiocruz e Fiocruz" /></div></div></div></footer>
+</div></div>
+<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script><script src="../../assets/js/ResizeSensor.js"></script><script src="../../assets/js/sticky-sidebar.js"></script><script src="../../assets/js/sidebar.js"></script><script>var sidebar=new StickySidebar('.sidebar',{topSpacing:0,bottomSpacing:0,containerSelector:'.main',innerWrapperSelector:'.sidebar__inner',minWidth:991});function refreshSidebarSticky(){if(sidebar&&typeof sidebar.updateSticky==='function')sidebar.updateSticky();}window.addEventListener('load',refreshSidebarSticky);window.addEventListener('resize',refreshSidebarSticky);document.querySelectorAll('.content img').forEach(function(img){if(!img.complete){img.addEventListener('load',refreshSidebarSticky);img.addEventListener('error',refreshSidebarSticky);}});</script><script src="../../assets/js/swiper-bundle.min.js"></script><script src="../../assets/js/swiper-init.js"></script><script src="../../assets/js/exercise.js"></script><script src="../../assets/js/scripts.js"></script><script src="../../assets/js/custom-anime.js"></script><script src="../../source/animate/aos/dist/aos.js"></script><script>AOS.init();</script>
+</body></html>

@@ -308,6 +308,16 @@ const modalInfos = {
 						<p class="mb-1">Mariana Gabriel</p>
 						<p class="small text-muted mb-0"><em>Núcleo de Evidências associado ao Núcleo de Informações, Políticas Públicas e Inclusão Social - NEv NIPPIS</em></p>
 						<p class="small text-muted mb-3"><em>[Aula 1]</em></p>
+						<p class="mb-1">Laura Boeira</p>
+						<p class="small text-muted mb-0"><em>Instituto Veredas</em></p>
+						<p class="small text-muted mb-3"><em>[Aula 2]</em></p>
+						<p class="mb-1">Dolores Maria Franco de Abreu</p>
+						<p class="small text-muted mb-0"><em>Núcleo de Evidências associado ao Núcleo de Informações, Políticas Públicas e Inclusão Social - NEv NIPPIS / FIOCRUZ-UNIFASE</em></p>
+						<p class="small text-muted mb-3"><em>[Aula 3]</em></p>
+						<p class="creditos-modulo mb-2 mt-4">Módulo 4: Produtos Comunicacionais para Tradução do Conhecimento</p>
+						<p class="mb-1">Daniele da Silva Garcez Novaes</p>
+						<p class="small text-muted mb-0"><em>Núcleo de Informação, Políticas Públicas e Inclusão Social - NIPPIS/FIOCRUZ E UNIFASE e Núcleo de Evidências NEv NIPPIS</em></p>
+						<p class="small text-muted mb-3"><em>[Aula 1]</em></p>
 					</div>
 				</div>
 			</div>
