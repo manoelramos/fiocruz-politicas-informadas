@@ -228,11 +228,11 @@ const modalInfos = {
 		ariaLabel: "creditos",
 		modalSize: "modal-xl",
 		modalTitle: "Créditos",
-		modalBody: `
+				modalBody: `
 			<div class="row justify-content-center pt-4">
 				<div class="col-12 col-md-11 col-lg-10 creditos-curso">
 					<span class="h5 mb-3 d-block">Curso</span>
-					<p class="mb-5">Análise e Interpretação de Dados em Saúde</p>
+					<p class="mb-5">Políticas Informadas por Evidências</p>
 					<span class="h5 mb-3 d-block">Ministério da Saúde</span>
 					<div class="mb-5">
 						<p class="mb-1">Alexandre Padilha</p>
@@ -259,13 +259,22 @@ const modalInfos = {
 						<p class="small text-muted"><em>Assessora pedagógica</em></p>
 						<p class="mb-1">Isabela Schincariol</p>
 						<p class="small text-muted"><em>Assessora de comunicação</em></p>
+						<p class="mb-1">Fernanda Sousa</p>
+						<p class="small text-muted"><em>Designer Educacional</em></p>
 						<p class="mb-1">Igor Cruz</p>
 						<p class="small text-muted"><em>Designer Educacional</em></p>
 						<p class="mb-1">Marco Macedo</p>
 						<p class="small text-muted"><em>Designer Gráfico</em></p>
 						<p class="mb-1">Manoel Ramos</p>
 						<p class="small text-muted"><em>Desenvolvedor</em></p>
-						<span class="h6 mb-3 d-block">Suporte Técnico de Tecnologia da Informação</span>
+						<span class="h6 mb-3 d-block mt-4">Recursos Educacionais</span>
+						<p class="mb-1">Carmélia Brito</p>
+						<p class="small text-muted"><em>Bibliotecária</em></p>
+						<p class="mb-1">Natália Rasina</p>
+						<p class="small text-muted"><em>Audiodescrição</em></p>
+						<p class="mb-1">Janaina Vieira</p>
+						<p class="small text-muted"><em>Revisão de Português</em></p>
+						<span class="h6 mb-3 d-block mt-4">Suporte de Tecnologia da Informação</span>
 						<p class="mb-1">Bruno Alexandre de Oliveira</p>
 						<p class="small text-muted"><em>Desenvolvedor</em></p>
 						<p class="mb-1">Eduardo Xavier da Silva</p>
@@ -281,43 +290,47 @@ const modalInfos = {
 					</div>
 					<span class="h5 mb-3 d-block">Coordenação Acadêmica</span>
 					<div class="mb-5">
-						<p class="mb-1">Carolina de Campos Carvalho</p>
-						<p class="small text-muted mb-0"><em>Instituto de Comunicação e Informação Científica e Tecnológica em Saúde - Icict/Fiocruz</em></p>
-						<p class="small text-muted mb-3"><em>Coordenadora</em></p>
-						<p class="mb-1">Mônica de Avelar Figueiredo Mafra Magalhães</p>
-						<p class="small text-muted mb-0"><em>Instituto de Comunicação e Informação Científica e Tecnológica em Saúde - Icict/Fiocruz</em></p>
-						<p class="small text-muted mb-3"><em>Coordenadora</em></p>
-						<p class="mb-1">Mel Bonfim</p>
-						<p class="small text-muted mb-0"><em>Relações Institucionais/PR/Fiocruz</em></p>
-						<p class="small text-muted mb-3"><em>Coordenadora</em></p>
+						<p class="mb-1">Cristina Maria Rabelais Duarte</p>
+						<p class="small text-muted mb-3"><em>Núcleo de Evidências associado ao Núcleo de Informação, Políticas Públicas e Inclusão Social, vinculado ao Instituto de Comunicação e Informação Científica e Tecnológica em Saúde e ao Centro Universitário UNIFASE – Nev NIPPIS/Icict/Fiocruz-UNIFASE</em></p>
+						<p class="mb-1">Maritsa Carla de Bortoli</p>
+						<p class="small text-muted mb-3"><em>Núcleo de Evidências do Instituto de Saúde e Centro de Tecnologias de Saúde para o SUS-SP do Instituto de Saúde</em></p>
 					</div>
 					<span class="h5 mb-3 d-block">Conteudistas</span>
 					<div class="mb-5">
-						<p class="creditos-modulo mb-2 mt-4">Módulo 1: Estatística</p>
-						<p class="mb-1">Carla Lourenço Tavares de Andrade</p>
-						<p class="small text-muted mb-0"><em>Escola Nacional de Saúde Pública Sergio Arouca – ENSP/Fiocruz</em></p>
+						<p class="creditos-modulo mb-2 mt-4">Módulo 1: Introdução à Política Informada por Evidências - PIE</p>
+						<p class="mb-1">Cristina Maria Rabelais Duarte</p>
+						<p class="small text-muted mb-0"><em>Núcleo de Evidências associado ao Núcleo de Informação, Políticas Públicas e Inclusão Social, vinculado ao Instituto de Comunicação e Informação Científica e Tecnológica em Saúde e ao Centro Universitário UNIFASE – Nev NIPPIS/Icict/Fiocruz-UNIFASE</em></p>
 						<p class="small text-muted mb-3"><em>[Aulas 1, 2 e 3]</em></p>
-						<p class="creditos-modulo mb-2 mt-4">Módulo 2: Análise Temporal</p>
-						<p class="mb-1">Diego Ricardo Xavier</p>
-						<p class="small text-muted mb-0"><em>Instituto de Comunicação e Informação Científica e Tecnológica em Saúde - Icict/Fiocruz</em></p>
+						<p class="mb-1">Daniele da Silva Garcez Novaes</p>
+						<p class="small text-muted mb-0"><em>Núcleo de Evidências associado ao Núcleo de Informação, Políticas Públicas e Inclusão Social, vinculado ao Instituto de Comunicação e Informação Científica e Tecnológica em Saúde e ao Centro Universitário UNIFASE – Nev NIPPIS/Icict/Fiocruz-UNIFASE</em></p>
+						<p class="small text-muted mb-3"><em>[Aula 1]</em></p>
+						<p class="creditos-modulo mb-2 mt-4">Módulo 2: Documentos para Políticas Informadas por Evidências</p>
+						<p class="mb-1">Letícia Aparecida Lopes Bezerra da Silva</p>
+						<p class="small text-muted mb-0"><em>Núcleo de Evidências do Instituto de Saúde, Núcleo de Análise e Projetos de Avaliação de Tecnologias de Saúde e Centro de Tecnologias de Saúde para o SUS-SP do Instituto de Saúde</em></p>
 						<p class="small text-muted mb-3"><em>[Aulas 1, 2 e 3]</em></p>
-						<p class="mb-1">Julia Novaes de Barros Peixoto</p>
-						<p class="small text-muted mb-0"><em>Instituto de Comunicação e Informação Científica e Tecnológica em Saúde - Icict/Fiocruz</em></p>
+						<p class="mb-1">Maritsa Carla de Bortoli</p>
+						<p class="small text-muted mb-0"><em>Núcleo de Evidências do Instituto de Saúde e Centro de Tecnologias de Saúde para o SUS-SP do Instituto de Saúde</em></p>
+						<p class="small text-muted mb-3"><em>[Aulas 1, 2 e 3]</em></p>
+						<p class="mb-1">Taís Rodrigues Tesser</p>
+						<p class="small text-muted mb-0"><em>Núcleo de Evidências do Instituto de Saúde, Núcleo de Fomento e Gestão de Tecnologias de Saúde e Centro de Tecnologias de Saúde para o SUS-SP do Instituto de Saúde</em></p>
 						<p class="small text-muted mb-3"><em>[Aulas 1, 2 e 3]</em></p>
 						<p class="creditos-modulo mb-2 mt-4">Módulo 3: Democratização do conhecimento</p>
 						<p class="mb-1">Mariana Gabriel</p>
-						<p class="small text-muted mb-0"><em>Núcleo de Evidências associado ao Núcleo de Informações, Políticas Públicas e Inclusão Social - NEv NIPPIS</em></p>
+						<p class="small text-muted mb-0"><em>Núcleo de Evidências associado ao Núcleo de Informação, Políticas Públicas e Inclusão Social, vinculado ao Instituto de Comunicação e Informação Científica e Tecnológica em Saúde e ao Centro Universitário UNIFASE – Nev NIPPIS/Icict/Fiocruz-UNIFASE</em></p>
 						<p class="small text-muted mb-3"><em>[Aula 1]</em></p>
 						<p class="mb-1">Laura Boeira</p>
 						<p class="small text-muted mb-0"><em>Instituto Veredas</em></p>
 						<p class="small text-muted mb-3"><em>[Aula 2]</em></p>
 						<p class="mb-1">Dolores Maria Franco de Abreu</p>
-						<p class="small text-muted mb-0"><em>Núcleo de Evidências associado ao Núcleo de Informações, Políticas Públicas e Inclusão Social - NEv NIPPIS / FIOCRUZ-UNIFASE</em></p>
+						<p class="small text-muted mb-0"><em>Núcleo de Evidências associado ao Núcleo de Informação, Políticas Públicas e Inclusão Social, vinculado ao Instituto de Comunicação e Informação Científica e Tecnológica em Saúde e ao Centro Universitário UNIFASE – Nev NIPPIS/Icict/Fiocruz-UNIFASE</em></p>
 						<p class="small text-muted mb-3"><em>[Aula 3]</em></p>
-						<p class="creditos-modulo mb-2 mt-4">Módulo 4: Produtos Comunicacionais para Tradução do Conhecimento</p>
+						<p class="creditos-modulo mb-2 mt-4">Módulo 4: Produtos comunicacionais para tradução do conhecimento</p>
 						<p class="mb-1">Daniele da Silva Garcez Novaes</p>
-						<p class="small text-muted mb-0"><em>Núcleo de Informação, Políticas Públicas e Inclusão Social - NIPPIS/FIOCRUZ E UNIFASE e Núcleo de Evidências NEv NIPPIS</em></p>
-						<p class="small text-muted mb-3"><em>[Aula 1]</em></p>
+						<p class="small text-muted mb-0"><em>Núcleo de Evidências associado ao Núcleo de Informação, Políticas Públicas e Inclusão Social, vinculado ao Instituto de Comunicação e Informação Científica e Tecnológica em Saúde e ao Centro Universitário UNIFASE – Nev NIPPIS/Icict/Fiocruz-UNIFASE</em></p>
+						<p class="small text-muted mb-3"><em>[Aulas 1, 2 e 3]</em></p>
+						<p class="mb-1">Cristina Maria Rabelais Duarte</p>
+						<p class="small text-muted mb-0"><em>Núcleo de Evidências associado ao Núcleo de Informação, Políticas Públicas e Inclusão Social, vinculado ao Instituto de Comunicação e Informação Científica e Tecnológica em Saúde e ao Centro Universitário UNIFASE – Nev NIPPIS/Icict/Fiocruz-UNIFASE</em></p>
+						<p class="small text-muted mb-3"><em>[Aulas 1, 2 e 3]</em></p>
 					</div>
 				</div>
 			</div>

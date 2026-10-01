@@ -1,150 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes" />
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="robots" content="noindex" />
-	<meta name="author" content="Fiocruz, Campus Virtual" />
-	<meta name="description" content="Curso Fontes de Dados e Sistemas de Informação para o SUS" />
-	<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
-	<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
-	<link rel="manifest" href="../media/icons/manifest.json" />
-	<meta name="theme-color" content="#001833" />
-	<title>Curso Fontes de Dados e Sistemas de Informação para o SUS | Mod 4 | Aula 2</title>
-	<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="../../assets/css/style.css" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="robots" content="noindex" />
+<meta name="author" content="Fiocruz, Campus Virtual" />
+<meta name="description" content="Curso Políticas Informadas por Evidências" />
+<meta name="keywords" content="Fiocruz Curso Políticas Informadas por Evidências" />
+<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
+<link rel="manifest" href="../../media/icons/manifest.json" />
+<meta name="theme-color" content="#001833" />
+<title>Políticas Informadas por Evidências | Mod 4 | Aula 2 | Tópico 4</title>
+<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../../assets/css/style.css" />
 </head>
 <body>
-	<header class="header">
-		<div class="mobile-toggle-open"><a class="mobile-toggle__button" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a></div>
-		<div class="brand"><img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" /></div>
-		<div class="title"><h1>Fontes de Dados e Sistemas de Informação para o SUS</h1></div>
-		<ul class="nav nav-pills">
-			<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
-			<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
-		</ul>
-	</header>
-	<div class="main">
-		<div class="sidebar" role="navigation">
-			<div class="sidebar__inner" style="position: relative">
-				<div class="sidebar__group d-lg-none">
-					<div class="sidebar__group-item">
-						<div class="sidebar__header">
-							<span>Curso</span>
-							<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-						</div>
-					</div>
-					<div class="sidebar__group-item"><div class="sidebar__title"><h1>Fontes de Dados e Sistemas de Informação para o SUS</h1></div></div>
-					<div class="sidebar__group-item">
-						<ul class="nav">
-							<li class="nav-item"><a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a></li>
-							<li class="nav-item"><a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true">format_list_bulleted</span>Créditos</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="sidebar__group">
-					<div class="sidebar__group-item">
-						<div class="dropend">
-							<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-								<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span><span class="label">Módulos</span>
-							</button>
-							<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
-								<li class="d-lg-none dropdown-menu__header">
-									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-									<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-								</li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/aula1/topico1.html"><strong>Módulo 1</strong><br />Introdução à Informação em Saúde no SUS</a></li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula1/topico1.html"><strong>Módulo 2</strong><br />Fontes de Dados Socioeconômicos e Demográficos: subsídios para a Saúde</a></li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula1/topico1.html"><strong>Módulo 3</strong><br />Sistemas de Informação em Saúde</a></li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo4/aula1/topico1.html"><strong>Módulo 4</strong><br />Interoperabilidade de Sistemas</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="divider"><hr /></div>
-				<div class="sidebar__group">
-					<div class="sidebar__group-item"><span class="text module">Módulo <br class="d-none d-lg-block" /><span>4</span></span></div>
-					<div class="sidebar__group-item">
-						<div class="dropend">
-							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-								<span class="icon material-symbols-rounded" aria-hidden="true">apps</span><span class="label">Conteúdo</span>
-							</button>
-							<ul class="dropdown-menu">
-								<li class="d-lg-none dropdown-menu__header">
-									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-									<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-								</li>
-								<li class="dropdown-menu__title"><span class="label">Módulo 4</span><span class="title">Interoperabilidade de Sistemas</span></li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula1/topico1.html"><strong>Aula 1: </strong>Interoperabilidade na Saúde</a></li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="topico1.html"><strong>Aula 2: </strong>Integração de Dados em Saúde</a></li>
-								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../atividade.html"><strong>Atividade</strong></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="divider"><hr /></div>
-				<div class="sidebar__group">
-					<div class="sidebar__group-item"><span class="text class">Aula 2</span></div>
-					<div class="sidebar__group-item">
-						<div class="dropend">
-							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-								<span class="icon material-symbols-rounded" aria-hidden="true">format_list_bulleted</span><span class="label">Tópicos</span>
-							</button>
-							<ul class="dropdown-menu">
-								<li class="d-lg-none dropdown-menu__header">
-									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-									<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-								</li>
-								<li class="dropdown-menu__title"><span class="label">Aula 2</span><span class="title">Integração de Dados em Saúde</span></li>
-								<li class="dropdown-menu__item"><nav class="topic-list">
-							<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"><span class="material-symbols-rounded"></span>Sobre esta aula</a>
-							<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"><span class="material-symbols-rounded"></span>Rede Nacional de Dados em Saúde (RNDS)</a>
-							<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"><span class="material-symbols-rounded"></span>Histórico da RNDS e sua criação como parte da transformação digital do SUS</a>
-							<a href="topico4.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Interoperabilidade e sua importância na saúde</a>
-							<a href="topico5.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Funcionamento da RNDS: como os dados são coletados, integrados e acessados</a>
-							<a href="topico6.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Aplicações práticas para profissionais, gestores e cidadãos</a>
-							<a href="topico7.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Federalização da RNDS: descentralização e governança compartilhada</a>
-							<a href="topico8.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Qualidade dos dados</a>
-							<a href="topico9.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Referências</a>
-							</nav></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="content">
-			<div id="page-title"><div class="container"><div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5"><div class="col-12 col-md-10 col-lg-11"><h2 class="title"><span class="label">Módulo 4 | Aula 2</span><br />Integração de Dados em Saúde</h2></div></div></div></div>
-			<div id="page-content" class="">
-				<section><div class="container">
-<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="heading__block"><span class="small">Tópico 4</span><h3 class="heading__title">Interoperabilidade e sua importância na saúde</h3></div></div></div>
-<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Como vimos anteriormente, a interoperabilidade funciona como uma <strong>conversa eficiente entre sistemas diferentes</strong>, permitindo que eles troquem dados e utilizem informações de forma segura e integrada. No setor Saúde, isso se traduz na possibilidade de hospitais, Unidades de Saúde da Família, laboratórios e outros serviços compartilharem prontuários, exames, prescrições e registros clínicos <strong>sem barreiras tecnológicas</strong>.</p></div></div>
-<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>A RNDS foi desenvolvida com foco em <strong>interoperabilidade, segurança e escalabilidade</strong>, utilizando tecnologias que garantem um repositório acessível e confiável. Tudo isso preservando a privacidade, a integridade e a rastreabilidade dos dados. A informação de saúde precisa ser tanto útil quanto protegida.</p></div></div>
-<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="box" data-box="Importante"><div class="card"><div class="card-header"><span class="icone material-symbols-rounded" aria-hidden="true"></span><span class="label">Importante!</span></div><div class="card-body"><p class="mb-0">Se a interoperabilidade é a capacidade de conversar, precisamos de um idioma comum que todos os sistemas entendam. É aí que entra o <strong>HL7 FHIR</strong> (Fast Healthcare Interoperability Resources).</p></div></div></div></div></div>
-<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p><strong>Como o FHIR funciona na prática?</strong></p><p class="mb-0">Pense em um formulário padronizado que todo serviço de saúde usa para registrar uma consulta. Independentemente do sistema específico que cada serviço utiliza internamente, quando precisam compartilhar essa informação, todos "traduzem" para o <strong>formato FHIR</strong>. Essa padronização permite que sistemas distintos "conversem" entre si de forma ágil e segura.</p></div></div>
-<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p class="mb-2"><strong>Figura 1 – Interoperabilidade via formato FHIR.</strong></p><figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600"><img class="img-fluid mx-auto d-block mb-3 rounded border" src="../../media/modulo4/aula2-formato-fhir.png" alt="Diagrama de interoperabilidade via formato FHIR entre serviços de saúde." loading="lazy" /></figure></div></div>
-				</div></section>
-			</div>
-			<section><div class="container"><div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8"><div class="page-nav d-flex justify-content-evenly flex-wrap gap-3"><a class="fio-button fio-button-primary" href="topico3.html" rel="prev"><span class="material-symbols-rounded" aria-hidden="true">west</span> Tópico anterior</a><a class="fio-button fio-button-primary" href="topico5.html" rel="next">Próximo tópico <span class="material-symbols-rounded" aria-hidden="true">east</span></a></div></div></div></div></section>
-			<footer>
-				<div class="container-fluid">
-					<div class="row justify-content-center align-items-center linha-de-marcas">
-						<div class="col-12 text-center py-3">
-							<img class="img-fluid regua-logos" src="../../media/logos/regua-de-logos.png" alt="Régua de logos: ICICT, Campus Virtual Fiocruz e Fiocruz" />
-						</div>
-					</div>
-				</div>
-			</footer>
-	</div>
-	<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
-	<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
-	<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
-	<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
-	<script type="text/javascript">var sidebar = new StickySidebar(".sidebar", { topSpacing: 0, bottomSpacing: 0, containerSelector: ".main", innerWrapperSelector: ".sidebar__inner", minWidth: 991 });</script>
-	<script type="text/javascript" src="../../assets/js/scripts.js"></script>
-	<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
-	<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
-	<script>AOS.init();</script>
-</body>
-</html>
+<header class="header"><div class="mobile-toggle-open"><a class="mobile-toggle__button" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a></div><div class="brand"><img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" /></div><div class="title"><h1>Políticas Informadas por Evidências</h1></div><ul class="nav nav-pills"><li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li><li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li></ul></header>
+<div class="main"><div class="sidebar" role="navigation"><div class="sidebar__inner" style="position: relative">
+<div class="sidebar__group d-lg-none"><div class="sidebar__group-item"><div class="sidebar__header"><span>Curso</span><a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a></div></div><div class="sidebar__group-item"><div class="sidebar__title"><h1>Políticas Informadas por Evidências</h1></div></div><div class="sidebar__group-item"><ul class="nav"><li class="nav-item"><a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a></li><li class="nav-item"><a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true">format_list_bulleted</span>Créditos</a></li></ul></div></div>
+<div class="sidebar__group"><div class="sidebar__group-item"><div class="dropend"><button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30"><span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span><span class="label">Módulos</span></button><ul class="dropdown-menu" aria-labelledby="dropdown-modulos"><li class="d-lg-none dropdown-menu__header"><a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a><a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="../../modulo1/aula1/topico1.html"><strong>Módulo 1</strong><br />Introdução à Política Informada por Evidências</a></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="../../modulo2/aula1/topico1.html"><strong>Módulo 2</strong><br />Documentos para Políticas Informadas por Evidências</a></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="../../modulo3/aula1/topico1.html"><strong>Módulo 3</strong><br />Democratização do conhecimento</a></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="../aula1/topico1.html"><strong>Módulo 4</strong><br />Produtos Comunicacionais para Tradução do Conhecimento</a></li></ul></div></div></div>
+<div class="divider"><hr /></div><div class="sidebar__group"><div class="sidebar__group-item"><span class="text module">Módulo <br class="d-none d-lg-block" /><span>4</span></span></div><div class="sidebar__group-item"><div class="dropend"><button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30"><span class="icon material-symbols-rounded" aria-hidden="true">apps</span><span class="label">Conteúdo</span></button><ul class="dropdown-menu"><li class="d-lg-none dropdown-menu__header"><a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a><a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a></li><li class="dropdown-menu__title"><span class="label">Módulo 4</span><span class="title">Produtos Comunicacionais para Tradução do Conhecimento</span></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="../aula1/topico1.html"><strong>Aula 1: </strong>Papel e importância da Comunicação em PIE</a></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="topico1.html"><strong>Aula 2: </strong>Formatos de Produtos para Comunicação de Conhecimento</a></li><li class="dropdown-menu__item"><a class="dropdown-menu__item-link" href="../aula3/topico1.html"><strong>Aula 3: </strong>Comunicação de Evidências na Prática e a Experiência do NIPPIS</a></li></ul></div></div></div>
+<div class="divider"><hr /></div><div class="sidebar__group"><div class="sidebar__group-item"><span class="text class">Aula 2</span></div><div class="sidebar__group-item"><div class="dropend"><button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30"><span class="icon material-symbols-rounded" aria-hidden="true">format_list_bulleted</span><span class="label">Tópicos</span></button><ul class="dropdown-menu"><li class="d-lg-none dropdown-menu__header"><a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a><a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a></li><li class="dropdown-menu__title"><span class="label">Aula 1</span><span class="title">Formatos de Produtos para Comunicação de Conhecimento</span></li><li class="dropdown-menu__item"><nav class="topic-list"><a href="topico1.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Sobre esta aula</a><a href="topico2.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Autoria</a><a href="topico3.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Introdução</a><a href="topico4.html" class="dropdown-menu__item-link active" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Caminhos para tornar as evidências mais acessíveis e compreensíveis</a><a href="topico5.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Públicos, formatos e estratégias de comunicação</a><a href="topico6.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Boas práticas para comunicar evidências</a><a href="topico7.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Atividade</a><a href="topico8.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Resumo da aula</a><a href="topico9.html" class="dropdown-menu__item-link" tabindex="0" role="link"><span class="material-symbols-rounded"></span>Referências Bibliográficas</a></nav></li></ul></div></div></div>
+</div></div>
+<div class="content"><div id="page-title"><div class="container"><div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5"><div class="col-12 col-md-10 col-lg-11"><h2 class="title"><span class="label">Módulo 4 | Aula 2</span><br />Formatos de Produtos para Comunicação de Conhecimento</h2></div></div></div></div>
+<div id="page-content"><section><div class="container">
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-4"><div class="heading__block"><span class="small">Tópico 4</span><h3 class="heading__title">Caminhos para tornar as evidências mais acessíveis e compreensíveis</h3></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-4"><div class="heading__block"><h4 class="heading__title">Os impactos da desinformação e das desigualdades informacionais</h4></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>As transformações nas tecnologias digitais ampliaram significativamente a circulação de informações científicas e de conteúdos relacionados à saúde e às políticas públicas. Ao mesmo tempo, esse cenário também favoreceu o aumento da desinformação, da circulação de conteúdos falsos e da disseminação de informações sem base científica.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>A desinformação pode comprometer a confiança pública na ciência, dificultar processos de tomada de decisão e influenciar comportamentos individuais e coletivos. Em temas relacionados à saúde, seus impactos podem ser ainda mais graves, afetando práticas de prevenção, adesão a tratamentos e políticas públicas.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="saiba-mais pb-5"><div class="row"><div class="col-12 d-flex justify-content-center"><button class="saiba-mais fio-button button-md fio-button-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#m4a2-desinformacao" aria-expanded="false" aria-controls="m4a2-desinformacao"><span class="icone material-symbols-rounded" aria-hidden="true"></span> SAIBA MAIS!</button></div><div class="col-12"><div class="mt-3 collapse" id="m4a2-desinformacao">
+<p>Vamos entender um pouco mais sobre desinformação?</p>
+<p>Esse não é um fenômeno recente. Ao longo da história, diferentes boatos, informações falsas, rumores e disputas narrativas influenciaram percepções públicas, comportamentos sociais e decisões políticas.</p>
+<p>No campo da saúde, um exemplo frequentemente lembrado no Brasil é a Revolta da Vacina, ocorrida no início do século XX, no Rio de Janeiro. Naquele contexto, além das tensões políticas e sociais relacionadas às medidas sanitárias adotadas pelo governo, circularam medos, desconfianças e informações distorcidas sobre a vacinação obrigatória, contribuindo para o surgimento de conflitos e resistência popular.</p>
+<p>Mais recentemente, durante a pandemia da covid-19, a Organização Mundial da Saúde (OMS) passou a utilizar o termo “infodemia” para se referir ao excesso de informações circulando rapidamente nas plataformas digitais, dificultando o acesso da população a conteúdos confiáveis e baseados em evidências.</p>
+<p>No entanto, compreender a desinformação apenas como um problema de “verdadeiro ou falso” pode simplificar excessivamente um fenômeno muito mais complexo. A circulação das informações é atravessada por contextos culturais, experiências sociais, crenças, valores, desigualdades de acesso, confiança nas instituições e formas como as pessoas se relacionam com os meios de comunicação e as plataformas digitais.</p>
+<p class="mb-0">Enfrentar a desinformação não depende apenas de disponibilizar dados científicos corretos. Também é necessário compreender os contextos e os públicos com os quais se deseja dialogar, reconhecendo que processos de comunicação envolvem disputas de sentidos, mediações socioculturais e diferentes formas de apropriação das informações.</p>
+</div></div></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Nem todos os grupos sociais têm as mesmas condições de acesso a informações. Diferenças relacionadas a escolaridade, renda, acesso à internet, acessibilidade digital e letramento informacional podem ampliar desigualdades no acesso ao conhecimento científico.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><img class="img-fluid w-100 rounded" src="../../media/modulo4/aula2/ilustracao-barreiras-acesso.png" alt="Ilustração sobre diferentes barreiras de acesso à informação científica" /><p class="figure-caption fonte small mt-2 mb-0">Fonte: Campus Virtual Fiocruz, a partir da ferramenta Chatgpt (2026).</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>As desigualdades informacionais afetam diretamente a possibilidade de participação social e de uso democrático das evidências científicas. Quando determinados grupos não conseguem acessar, compreender ou utilizar informações confiáveis, ampliam-se barreiras para o exercício da cidadania e do controle social.</p></div></div>
+
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="saiba-mais pb-5"><div class="row"><div class="col-12 d-flex justify-content-center"><button class="saiba-mais fio-button button-md fio-button-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#m4a2-pnad" aria-expanded="false" aria-controls="m4a2-pnad"><span class="icone material-symbols-rounded" aria-hidden="true"></span> SAIBA MAIS!</button></div><div class="col-12"><div class="mt-3 collapse" id="m4a2-pnad">
+<p>A Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua), realizada pelo Instituto Brasileiro de Geografia e Estatística (IBGE), acompanha informações sobre condições de vida da população brasileira, incluindo acesso à internet e uso de tecnologias digitais.</p>
+<p>Segundo a pesquisa, a internet está presente em 93,6% dos domicílios brasileiros e é utilizada por 89,1% da população. Mesmo assim, cerca de 20,5 milhões de brasileiros permanecem sem acesso a ela.</p>
+<p class="mb-0">Entre os principais motivos estão baixa escolaridade, idade avançada e dificuldades no uso de tecnologias.</p>
+</div></div></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Desse modo, estratégias de comunicação acessível e inclusiva tornam-se essenciais para fortalecer o acesso público às evidências e enfrentar os impactos da desinformação.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-4"><div class="heading__block"><h4 class="heading__title">A importância da linguagem simples</h4></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>A linguagem utilizada em produtos comunicacionais influencia diretamente a compreensão das informações e o acesso às evidências científicas. Como já mencionamos, o uso excessivo de termos técnicos, frases longas e estruturas complexas dificulta a leitura e afasta diferentes públicos do conhecimento científico.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>A linguagem simples surge como uma estratégia para tornar a comunicação mais clara, objetiva e acessível, desempenhando papel estratégico para ampliar o acesso às evidências científicas, fortalecer a participação social e apoiar processos de tomada de decisão com base em mais informações.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="row g-4 align-items-start"><div class="col-12 col-md-7"><p>Seu objetivo não é retirar a complexidade dos temas, mas apresentar informações de maneira compreensível para públicos diversos, respeitando diferentes níveis de escolaridade, repertórios e contextos socioculturais.</p><p>Utilizar linguagem simples envolve escolhas relacionadas à organização do texto, seleção de palavras, construção de frases mais diretas; uso de exemplos, imagens e recursos visuais que facilitem a compreensão das informações.</p><p>No Brasil, esse debate ganhou ainda mais força com a <a href="https://legislacao.presidencia.gov.br/atos/?tipo=LEI&amp;numero=15263&amp;ano=2025&amp;ato=41ckXUU9UNZpWT33e" target="_blank" rel="noopener noreferrer">Lei nº 15.263/2025</a>, que institui a Política Nacional de Linguagem Simples. A legislação determina que órgãos públicos utilizem comunicação clara, direta e acessível em textos, formulários, sites e outros materiais destinados à população, fortalecendo o direito à informação e a transparência pública.</p></div><div class="col-12 col-md-5"><img class="img-fluid w-100 rounded" src="../../media/modulo4/aula2/foto-linguagem-simples.jpeg" alt="Pessoas colaborando em ambiente de trabalho com tablet e caderno" /><p class="figure-caption fonte small mt-2 mb-0">Fonte: Magnific (2026).</p></div></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>O Instituto de Comunicação e Informação Científica e Tecnológica em Saúde (Icict/Fiocruz) disponibiliza gratuitamente o <a href="https://arca.fiocruz.br/items/984ef6c3-ce37-4cfc-8be4-3507ce1d30d7" target="_blank" rel="noopener noreferrer">Guia de Linguagem Simples</a>, material com orientações para tornar a comunicação mais clara, objetiva e acessível para diferentes públicos.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="card border-0 rounded overflow-hidden" style="background-color:var(--fio-sys-color-accent-dark);background-image:url(../../media/templates/fundo-flipcard.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;"><div class="card-body p-4 p-md-5"><p class="mb-0 text-white"><strong class="text-white">Lembre-se: linguagem simples não significa “simplificar demais” a ciência. Significa comunicar informações de forma clara, objetiva e acessível para diferentes públicos.</strong></p></div></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-4"><div class="heading__block"><h4 class="heading__title">Barreiras de acesso e acessibilidade comunicacional</h4></div></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>“Acessibilidade comunicacional” significa reconhecer que o acesso à informação é um direito, mas essa, porém, não é a realidade na qual vivemos. Muitas vezes, os produtos comunicacionais são desenvolvidos sem considerar recursos de acessibilidade.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Pessoas com deficiência visual, auditiva, intelectual ou com dificuldade de leitura podem enfrentar barreiras importantes quando o conteúdo não apresenta legendas, audiodescrição, Libras, linguagem simples ou formato compatível com tecnologias assistivas.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><p>Desenvolver produtos comunicacionais acessíveis envolve adotar estratégias inclusivas desde o planejamento dos conteúdos, considerando recursos de acessibilidade, diversidade de formatos e adequação às necessidades de diferentes públicos.</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><img class="img-fluid w-100 rounded" src="../../media/modulo4/aula2/foto-acessibilidade-tecnologia.jpeg" alt="Pessoa com deficiência visual utilizando leitor de tela, fones e display braille" /><p class="figure-caption fonte small mt-2 mb-0">Fonte: Campus Virtual Fiocruz, a partir da ferramenta Chatgpt (2026).</p></div></div>
+<div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8 mb-5"><div class="box" data-box="Atenção"><div class="card"><div class="card-header"><span class="icone material-symbols-rounded" aria-hidden="true"></span><span class="label">Atenção</span></div><div class="card-body"><div class="custom-shape-divider-top-1720289331"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path></svg></div><div><p>Acessibilidade comunicacional é um direito garantido pela <a href="http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2015/Lei/L13146.htm" target="_blank" rel="noopener noreferrer">Lei Brasileira de Inclusão da Pessoa com Deficiência (LBI – Lei nº 13.146/2015)</a>. Por isso, recursos como Libras, legendas, audiodescrição, descrição de imagens e adaptação de conteúdos devem ser considerados desde o planejamento dos projetos e incluídos nos orçamentos e planos de comunicação.</p><p>Atualmente, existem empresas, consultorias e profissionais especializados em acessibilidade comunicacional preparados para apoiar o desenvolvimento desses recursos em produtos audiovisuais, digitais e educativos.</p><p class="mb-0">Além disso, é fundamental envolver pessoas com deficiência nos processos de produção, avaliação e validação dos materiais produzidos. Essa participação contribui para identificar barreiras, aprimorar os recursos utilizados e fortalecer práticas de comunicação mais inclusivas e acessíveis.</p></div></div></div></div></div></div>
+</div></section></div>
+<section><div class="container"><div class="row justify-content-center"><div class="col-12 col-md-10 col-lg-8"><div class="page-nav d-flex justify-content-evenly flex-wrap gap-3"><a class="fio-button fio-button-primary" href="topico3.html" rel="prev"><span class="material-symbols-rounded" aria-hidden="true">west</span> Tópico anterior</a><a class="fio-button fio-button-primary" href="topico5.html" rel="next">Próximo tópico <span class="material-symbols-rounded" aria-hidden="true">east</span></a></div></div></div></div></section>
+<footer><div class="container-fluid"><div class="row justify-content-center align-items-center linha-de-marcas"><div class="col-12 text-center py-3"><img class="img-fluid regua-logos" src="../../media/logos/regua-de-logos.png" alt="Régua de logos: ICICT, Campus Virtual Fiocruz e Fiocruz" /></div></div></div></footer>
+</div></div>
+<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script><script src="../../assets/js/ResizeSensor.js"></script><script src="../../assets/js/sticky-sidebar.js"></script><script src="../../assets/js/sidebar.js"></script><script>var sidebar=new StickySidebar('.sidebar',{topSpacing:0,bottomSpacing:0,containerSelector:'.main',innerWrapperSelector:'.sidebar__inner',minWidth:991});function refreshSidebarSticky(){if(sidebar&&typeof sidebar.updateSticky==='function')sidebar.updateSticky();}window.addEventListener('load',refreshSidebarSticky);window.addEventListener('resize',refreshSidebarSticky);document.querySelectorAll('.content img').forEach(function(img){if(!img.complete){img.addEventListener('load',refreshSidebarSticky);img.addEventListener('error',refreshSidebarSticky);}});</script><script src="../../assets/js/swiper-bundle.min.js"></script><script src="../../assets/js/swiper-init.js"></script><script src="../../assets/js/exercise.js"></script><script src="../../assets/js/scripts.js"></script><script src="../../assets/js/custom-anime.js"></script><script src="../../source/animate/aos/dist/aos.js"></script><script>AOS.init();</script>
+</body></html>
